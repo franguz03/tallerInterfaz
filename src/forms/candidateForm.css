@@ -1,0 +1,48 @@
+.container{
+    border: 4px solid brown;
+    border-radius: 8px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+
+
+}
+.form button{
+
+    background-color: brown;
+    border: none;
+    margin-bottom: 15px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+}
+.form button:hover{
+    background-color: #E29241;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.data label {
+    display: inline-block; /* Para que el ancho se aplique correctamente */
+    width: 150px; /* Ancho fijo deseado */
+    text-align: left; /* Alineación del texto a la derecha */
+    margin-right: 10px; /* Margen derecho para separar los labels de los inputs */
+    color: brown; /* Color del texto marrón */
+  font-weight: bold; /* Texto en negrita */
+  }
+.data input{
+    width: 150px;
+}
+

@@ -1,0 +1,31 @@
+.table-container {
+    margin: 20px;
+    border: 4px solid brown;
+    border-radius: 8px;
+  }
+  
+  .candidate-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: brown;
+    
+  }
+  
+  .candidate-table th, .candidate-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .candidate-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .candidate-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .candidate-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
